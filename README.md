@@ -1,21 +1,18 @@
 # Blackjack
 
-**TODO: Add description**
+A basic implementation of Blackjack using elixir.
 
-## Installation
+## Usage - How to start game
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `blackjack` to your list of dependencies in `mix.exs`:
+Having Elixir installed, go to the project dir and install its dependencies with:
 
-```elixir
-def deps do
-  [
-    {:blackjack, "~> 0.1.0"}
-  ]
-end
+```shell
+$ mix deps.get
 ```
+Then you just need to enter the console and start playing.
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/blackjack](https://hexdocs.pm/blackjack).
-
+```shell
+$ iex -S mix
+$ iex> Blackjack.start
+```
+Have fun.

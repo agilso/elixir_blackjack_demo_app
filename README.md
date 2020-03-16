@@ -6,12 +6,12 @@ A basic implementation of Blackjack using elixir.
 
 Having Elixir installed, go to the project dir and install its dependencies with:
 
-```shell
+```bash
 $ mix deps.get
 ```
 Then you just need to enter the console and start playing.
 
-```shell
+```bash
 $ iex -S mix
 $ iex> Blackjack.start
 ```
